@@ -160,7 +160,47 @@ A IA não substitui o conhecimento de domínio. A pessoa precisa entender de arq
 
 ---
 
+Otimização do Parâmetro de Temperatura (Temperature)
+O curso explica o impacto direto do parâmetro de controle de aleatoriedade no comportamento do modelo:
 
+```text
+    Temperatura = 0.0                       Temperatura = 0.7 - 1.0
+┌──────────────────────────────┐        ┌──────────────────────────────┐
+│  Determinístico e Exato     │        │  Criativo e Variado          │
+│  Sempre a mesma resposta     │        │  Respostas imprevistas       │
+│  (Ideal: Código, SQL, Logs)  │        │  (Ideal: Marketing, Brains)  │
+└──────────────────────────────┘        └──────────────────────────────┘
+```
+**Temperature = 0 (Modo Analítico):** <br>
+Força o modelo a escolher sempre as palavras matematicamente mais prováveis. Essencial para análise de logs, geração de SQL, parsing de JSON ou tarefas que exigem precisão técnica e repetibilidade.
 
+**Temperature > 0.7 (Modo Criativo):** <br> 
+Introduce aleatoriedade. Utilizado para brainstorming, criação de roteiros ou variação de copywriting.
 
+---
+
+## Mitigação de Alucinações (Hallucinations): <br>
+Esse conhecimento trata explicitamente do risco de o modelo gerar fatos plausíveis, porém falsos (como inventar o nome de um produto real de uma marca existente).
+
+- **A Solução Técnica:** <br>
+Para mitigar alucinações em sistemas corporativos, o padrão ensinado é o *Chain of Thought + Context Grounding* (fornecer a documentação interna como contexto delimitado e ordenar que o modelo cite a fonte exata antes de responder).
+
+## 📌 Resumo da Estrutura Completa do Curso
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│                        MAPA TÉCNICO DO CURSO                           │
+├───────────────────┬────────────────────────────────────────────────────┤
+│ 1. Diretrizes     │ Princípios de clareza e tempo de raciocínio       │
+├───────────────────┼────────────────────────────────────────────────────┤
+│ 2. Iteração       │ Ciclo de análise de erro e refinamento de prompts  │
+├───────────────────┼────────────────────────────────────────────────────┤
+│ 3. 4 Pilares      │ Summarize, Infer, Transform, Expand                │
+├───────────────────┼────────────────────────────────────────────────────┤
+│ 4. Chatbots       │ Papéis (System, User, Assistant) e fluxo contínuo  │
+├───────────────────┼────────────────────────────────────────────────────┤
+│ 5. Parâmetros     │ Ajuste fino de Temperatura e contenção de erros    │
+└───────────────────┴────────────────────────────────────────────────────┘
+```
+
+---
 
