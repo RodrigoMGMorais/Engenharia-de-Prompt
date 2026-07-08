@@ -68,7 +68,7 @@ Até que o output seja consistente.
 
 ---
 
-## Nenhum prompt complexo nasce perfeito na primeira tentativa. O segredo de engenheiros de elite é o ciclo iterativo:
+## ⚠️Nenhum prompt complexo nasce perfeito na primeira tentativa. O segredo de engenheiros de elite é o ciclo iterativo:⚠️
 
 - **Ideia Inicial:** Escreva uma instrução clara e simples.
 
