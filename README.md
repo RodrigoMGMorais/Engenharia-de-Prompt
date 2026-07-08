@@ -17,13 +17,15 @@ Use para gerar rascunhos de e-mails, documentação técnica ou respostas a clie
 ---
 ## A Regra de Ouro:
 
-Seja Específico: Defina o ângulo (ex: "foque nos aspectos científicos e no impacto do teste de Turing").
+- Seja Específico: <br>
+Defina o ângulo (ex: "foque nos aspectos científicos e no impacto do teste de Turing").
 
-Delimitadores: Use sinais para separar a instrução do conteúdo que será processado. Isso evita que o modelo se confunda.
+- Delimitadores: <br>
+Use sinais para separar a instrução do conteúdo que será processado. Isso evita que o modelo se confunda.
 
-Exemplos: """, ---, < >, ###.
+- Exemplos: """, ---, < >, ###.
 
-Uso: "Resuma o texto delimitado por triplas aspas: """ {seu_texto} """".
+** Uso: "Resuma o texto delimitado por triplas aspas: """ {seu_texto} """".
 
 ---
 
