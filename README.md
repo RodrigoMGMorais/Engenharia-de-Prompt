@@ -19,12 +19,6 @@ A **Engenharia de Prompt** é uma habilidade essencial para trabalhar com modelo
 > [!TIP]
 > Sempre forneça contexto suficiente ao modelo para obter respostas mais precisas.
 
-### Exemplo
-
-```python
-print("Olá, mundo!")
-```
-
 ---
 
 - **Resumo (Summarizing):**<br>
