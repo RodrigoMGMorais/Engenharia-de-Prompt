@@ -116,41 +116,49 @@ Retorne o resultado estritamente em formato JSON válido com a estrutura:
 ```json
 {"status_code": int, "erro_detectado": bool, "acao_recomendada": str}
 ```
-Não inclua texto explicativo antes ou depois do JSON.
+*Não inclua texto explicativo antes ou depois do JSON.*
 
-🐱 Pulo 2: Evitar Alucinações com Escopo Fechado (Guardrails)
+## 🐱 Pulo 2: Evitar Alucinações com Escopo Fechado (Guardrails) <br>
 Quando a IA não sabe uma resposta, ela tende a inventar. Para blindar a resposta em ambiente corporativo, restrinja o escopo explicitamente:
 
-Exemplo de Pulo do Gato:
+**Exemplo de Pulo do Gato:** <br>
 
-"Responda à pergunta do usuário utilizando APENAS o texto contido dentro das triplas aspas. Se a informação não estiver presente no texto fornecido, responda apenas: 'Informação não encontrada na base'."
+Responda à pergunta do usuário utilizando APENAS o texto contido dentro das **triplas aspas**. Se a informação não estiver presente no texto fornecido, responda apenas: **'Informação não encontrada na base'.**
 
-🐱 Pulo 3: Cadeia de Pensamento para Cálculos e Lógica (Chain-of-Thought)
+## 🐱 Pulo 3: Cadeia de Pensamento para Cálculos e Lógica (Chain-of-Thought):<br>
 IAs são péssimas em responder perguntas complexas de forma direta porque tentam prever a palavra seguinte sem "planejar". Force o raciocínio intermediário:
 
-Exemplo de Pulo do Gato:
+**Exemplo de Pulo do Gato:**<br>
+Analise este script SQL. Antes de me dizer se há um erro, descreva passo a passo o que cada cláusula *JOIN* está fazendo. Em seguida, confirme a consistência dos índices.
 
-"Analise este script SQL. Antes de me dizer se há um erro, descreva passo a passo o que cada cláusula JOIN está fazendo. Em seguida, confirme a consistência dos índices."
+## 💎 As Habilidades mais Cobiçadas pelo Mercado:
+No mercado corporativo, as empresas não procuram mais quem sabe usar *"prompts de comando"*. Elas buscam profissionais com:
 
-💎 As Habilidades mais Cobiçadas pelo Mercado
-No mercado corporativo, as empresas não procuram mais quem sabe usar "prompts de comando". Elas buscam profissionais com:
+## AIOps & Automação de Infraestrutura:<br>
+Saber conectar *LLMs* a ferramentas como **Zabbix, Grafana, Kubernetes ou pipelines CI/CD** para diagnosticar falhas de servidor automaticamente.
 
-AIOps & Automação de Infraestrutura: Saber conectar LLMs a ferramentas como Zabbix, Grafana, Kubernetes ou pipelines CI/CD para diagnosticar falhas de servidor automaticamente.
+## Arquitetura RAG (Retrieval-Augmented Generation):<br>
+Capacidade de pegar a base de dados privada de uma empresa (*banco SQL, documentações internas*) e conectá-la a uma IA via engenharia de prompt sem vazar dados para a nuvem pública.
 
-Arquitetura RAG (Retrieval-Augmented Generation): Capacidade de pegar a base de dados privada de uma empresa (banco SQL, documentações internas) e conectá-la a uma IA via engenharia de prompt sem vazar dados para a nuvem pública.
+## Engenharia de "System Prompts" e Guardrails:<br>
+Criar as diretrizes de segurança da empresa para impedir que ataques de Prompt Injection façam o bot corporativo vazar senhas ou informações confidenciais.
 
-Engenharia de "System Prompts" e Guardrails: Criar as diretrizes de segurança da empresa para impedir que ataques de Prompt Injection façam o bot corporativo vazar senhas ou informações confidenciais.
+## 🔮 Prognóstico de Mercado (Próximos 2 Anos):<br>
+**O Estado da Arte (2026 – 2028)** <br>
+Mudança de Paradigma (*De "Prompting" para "Orquestração de Agentes"*): A engenharia de prompt puro isolada está se fundindo com a Arquitetura de Agentes Autônomos (*como CrewAI, LangChain, AutoGen*). Nos próximos dois anos, o profissional de TI não escreverá apenas prompts para um chat; **ele estruturará ecossistemas de múltiplos agentes de IA que conversam entre si.**
 
-🔮 Prognóstico de Mercado (Próximos 2 Anos)
-O Estado da Arte (2026 – 2028)
-Mudança de Paradigma (De "Prompting" para "Orquestração de Agentes"): A engenharia de prompt puro isolada está se fundindo com a Arquitetura de Agentes Autônomos (como CrewAI, LangChain, AutoGen). Nos próximos dois anos, o profissional de TI não escreverá apenas prompts para um chat; ele estruturará ecossistemas de múltiplos agentes de IA que conversam entre si.
+- **Exemplo:** <br>
+Um Agente "DBA" analisa a query<bR>
+**->** passa para o Agente "*Segurança*" validar<br>
+**->** passa para o Agente "*DevOps*" aplicar no servidor.
 
-Exemplo: Um Agente "DBA" analisa a query -> passa para o Agente "Segurança" validar -> passa para o Agente "DevOps" aplicar no servidor.
+## Importância do Conhecimento:<br> 
+Este conhecimento é crítico e indispensável. Quem domina como conduzir uma LLM via código se torna um **"multiplicador de forças"** dentro de uma empresa. **O analista que gasta 4 horas para depurar logs ou criar relatórios fará a mesma tarefa em 5 minutos orquestrando prompts bem desenhados.**
 
-Importância do Conhecimento: Este conhecimento é crítico e indispensável. Quem domina como conduzir uma LLM via código se torna um "multiplicador de forças" dentro de uma empresa. O analista que gasta 4 horas para depurar logs ou criar relatórios fará a mesma tarefa em 5 minutos orquestrando prompts bem desenhados.
+## O Valor do Profissional Sênior: <br>
+A IA não substitui o conhecimento de domínio. A pessoa precisa entender de arquitetura de sistemas, regras de negócio e redes para saber se a IA está gerando uma solução sólida ou um absurdo técnico. **O profissional experiente que domina a engenharia de prompt se torna o ativo mais valorizado e pago do mercado.** <br>
 
-O Valor do Profissional Sênior: A IA não substitui o conhecimento de domínio. A pessoa precisa entender de arquitetura de sistemas, regras de negócio e redes para saber se a IA está gerando uma solução sólida ou um absurdo técnico. O profissional experiente que domina a engenharia de prompt se torna o ativo mais valorizado e pago do mercado.
-- **Repetição:** Reduza a margem de erro até ter estabilidade em produção.
+---
 
 
 
