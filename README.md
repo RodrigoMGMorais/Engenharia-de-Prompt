@@ -1,5 +1,6 @@
 # Engenharia-de-Prompt
-Informações relevantes de Engenharia de Prompt:
+
+## Informações relevantes de Engenharia de Prompt:
 
 Resumo (Summarizing): Não peça apenas "resuma". Peça "resuma focado em [X] para o público [Y], limitando a [Z] palavras". Isso é o que a gestão espera de um relatório técnico.
 
