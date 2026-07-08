@@ -23,3 +23,10 @@ Projeto desenvolvido utilizando a biblioteca oficial da OpenAI integrada ao mode
 2. Baixar o modelo Llama 3.2 no terminal:
    ```bash
    ollama run llama3.2
+
+---
+## Imagens do Chatbot funcionando:
+
+### 📸 Demonstração do Chatbot em Execução
+
+![Demonstração do Chatbot](execucao-chatbot.jpg)
