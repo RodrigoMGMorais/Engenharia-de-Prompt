@@ -83,17 +83,20 @@ Até que o output seja consistente.
 ### As 4 Operações Fundamentais de LLMs em Código
 💡Toda aplicação de inteligência artificial generativa em empresas se resume a 4 capacidades tratadas no curso:
 
-┌─────────────────────────────────────────────────────────────┐
-│              CAPACIDADES FUNDAMENTAIS DE LLMs               │
-├──────────────┬──────────────────────────────────────────────┤
-│ 1. Summarize │ Compactar logs, e-mails, tickets de suporte  │
-├──────────────┼──────────────────────────────────────────────┤
-│ 2. Infer     │ Extrair sentimento, classificar, padronizar  │
-├──────────────┼──────────────────────────────────────────────┤
-│ 3. Transform │ Traduzir, converter formatos (SQL -> JSON)   │
-├──────────────┼──────────────────────────────────────────────┤
-│ 4. Expand    │ Gerar rascunhos, respostas, códigos de apoio │
-└──────────────┴──────────────────────────────────────────────┘
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│                 CAPACIDADES FUNDAMENTAIS DE LLMs                           │
+├────┬───────────────┬───────────────────────────────────────────────────────┤
+│ 1. │ Summarize     │ Compactar logs, e-mails, tickets de suporte          │
+├────┼───────────────┼───────────────────────────────────────────────────────┤
+│ 2. │ Infer         │ Extrair sentimento, classificar, padronizar          │
+├────┼───────────────┼───────────────────────────────────────────────────────┤
+│ 3. │ Transform     │ Traduzir, converter formatos (SQL → JSON)            │
+├────┼───────────────┼───────────────────────────────────────────────────────┤
+│ 4. │ Expand        │ Gerar rascunhos, respostas, códigos de apoio         │
+└────┴───────────────┴───────────────────────────────────────────────────────┘
+```
+
 - **Resumir (Summarize):** Condensar grandes volumes de texto focando em partes específicas (ex: "Resuma este log focando apenas em erros de banco de dados SQL").
 
 - **Inferir (Infer):** Classificar e analisar intenções (ex: sentimentos de clientes, detecção de bugs em logs sem precisar de código Regex complexo).
