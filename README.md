@@ -68,5 +68,19 @@ Até que o output seja consistente.
 
 ---
 
+## Nenhum prompt complexo nasce perfeito na primeira tentativa. O segredo de engenheiros de elite é o ciclo iterativo:
+
+- **Ideia Inicial:** Escreva uma instrução clara e simples.
+
+- **Execução:** Teste com dados reais ou casos de borda (edge cases).
+
+- **Análise de Erro:** Descubra por que a resposta falhou (falta de contexto, ambiguidades, alucinação).
+
+- **Refinamento:** Ajuste os delimitadores, adicione exemplos (Few-shot) ou force passos de raciocínio.
+
+- **Repetição:** Reduza a margem de erro até ter estabilidade em produção.
+
+
+
 
 
