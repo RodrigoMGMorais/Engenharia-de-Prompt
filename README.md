@@ -73,7 +73,6 @@ Não mude o texto todo; adicione uma restrição ou clarifique o formato.
 Até que o output seja consistente.
 
 ---
-!NOTE, 
-> [!TIP],
-> > [!WARNING]
+
+
 
