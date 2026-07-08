@@ -111,9 +111,11 @@ Para se destacar tecnicamente no mercado de TI, estes são os truques operaciona
 ## 🐱 Pulo 1: Travar a Saída em JSON / XML<br>
 Nunca peça para a IA **"retornar um texto simples"** se você vai usar isso em um script ou sistema backend. Force a saída em JSON ou tabelas Markdown e especifique os nomes exatos das chaves.
 
-> **Exemplo de Pulo do Gato:** <br>
+**Exemplo de Pulo do Gato:** <br>
 Retorne o resultado estritamente em formato JSON válido com a estrutura:
-```{"status_code": int, "erro_detectado": bool, "acao_recomendada": str}```
+```
+{"status_code": int, "erro_detectado": bool, "acao_recomendada": str}
+```
 Não inclua texto explicativo antes ou depois do JSON.
 
 🐱 Pulo 2: Evitar Alucinações com Escopo Fechado (Guardrails)
