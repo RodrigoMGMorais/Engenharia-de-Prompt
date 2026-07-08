@@ -7,5 +7,5 @@ Inferência (Inferring): Use o modelo para extrair dados estruturados de textos 
 
 Transformação (Transforming): O modelo é um tradutor universal de formatos. Use para mudar o tom de uma mensagem (de técnico para executivo) ou traduzir logs de formato cru para relatórios amigáveis.
 
-Expansão (Expanding): Use para gerar rascunhos de e-mails, documentação técnica ou respostas a clientes, sempre dando o contexto e o "tom de voz" desejado.
+## Expansão (Expanding): Use para gerar rascunhos de e-mails, documentação técnica ou respostas a clientes, sempre dando o contexto e o "tom de voz" desejado.
 ---
