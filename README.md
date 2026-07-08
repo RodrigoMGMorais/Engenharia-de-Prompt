@@ -31,7 +31,7 @@ Use sinais para separar a instrução do conteúdo que será processado. Isso ev
 ---
 
 ## O Processo Iterativo (O Método de Elite)
-Ninguém acerta o prompt de primeira. O curso ensina que o prompt é código, e como todo código, precisa de refatoração.
+⚠️ Ninguém acerta o prompt de primeira. O curso ensina que o prompt é código, e como todo código, precisa de refatoração.
 
 ## O Ciclo de Refatoração:
 
