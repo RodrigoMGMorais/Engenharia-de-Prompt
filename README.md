@@ -2,6 +2,31 @@
 
 ## Informações relevantes de Engenharia de Prompt:
 
+---
+
+# Engenharia de Prompt
+
+## 📚 Resumo
+
+A **Engenharia de Prompt** é uma habilidade essencial para trabalhar com modelos de IA.
+
+### Objetivos
+
+- Aprender os principais conceitos.
+- Utilizar **prompts eficientes**.
+- Executar exemplos com `ChatGPT`, `Claude` e `Gemini`.
+
+> [!TIP]
+> Sempre forneça contexto suficiente ao modelo para obter respostas mais precisas.
+
+### Exemplo
+
+```python
+print("Olá, mundo!")
+```
+
+---
+
 - **Resumo (Summarizing):**<br>
 Não peça apenas "resuma". Peça "resuma focado em [X] para o público [Y], limitando a [Z] palavras". Isso é o que a gestão espera de um relatório técnico.
 
