@@ -10,3 +10,27 @@ Transformação (Transforming): O modelo é um tradutor universal de formatos. U
 Expansão (Expanding): Use para gerar rascunhos de e-mails, documentação técnica ou respostas a clientes, sempre dando o contexto e o "tom de voz" desejado.
 
 ---
+## A Regra de Ouro:
+
+Seja Específico: Defina o ângulo (ex: "foque nos aspectos científicos e no impacto do teste de Turing").
+
+Delimitadores: Use sinais para separar a instrução do conteúdo que será processado. Isso evita que o modelo se confunda.
+
+Exemplos: """, ---, < >, ###.
+
+Uso: "Resuma o texto delimitado por triplas aspas: """ {seu_texto} """".
+
+---
+
+## O Processo Iterativo (O Método de Elite)
+Ninguém acerta o prompt de primeira. O curso ensina que o prompt é código, e como todo código, precisa de refatoração.
+
+O Ciclo de Refatoração:
+
+Escreva o primeiro prompt: Tente ser claro e dar delimitadores.
+
+Analise o resultado: Onde ele falhou? Foi prolixo demais? Faltou dado técnico?
+
+Refine a instrução: Não mude o texto todo; adicione uma restrição ou clarifique o formato.
+
+Repita: Até que o output seja consistente.
