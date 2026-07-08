@@ -185,7 +185,7 @@ Esse conhecimento trata explicitamente do risco de o modelo gerar fatos plausív
 - **A Solução Técnica:** <br>
 Para mitigar alucinações em sistemas corporativos, o padrão ensinado é o *Chain of Thought + Context Grounding* (fornecer a documentação interna como contexto delimitado e ordenar que o modelo cite a fonte exata antes de responder).
 
-## 📌 Resumo da Estrutura Completa do Curso
+## 📌 Resumo da Estrutura Completa:
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        MAPA TÉCNICO DO CURSO                           │
