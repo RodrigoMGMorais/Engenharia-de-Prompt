@@ -25,7 +25,8 @@ Use sinais para separar a instrução do conteúdo que será processado. Isso ev
 
 - Exemplos: """, ---, < >, ###.
 
-** Uso: "Resuma o texto delimitado por triplas aspas: """ {seu_texto} """".
+** Uso: <br>
+"Resuma o texto delimitado por triplas aspas: """ {seu_texto} """".
 
 ---
 
