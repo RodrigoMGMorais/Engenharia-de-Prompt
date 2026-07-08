@@ -33,12 +33,20 @@ Use sinais para separar a instrução do conteúdo que será processado. Isso ev
 ## O Processo Iterativo (O Método de Elite)
 Ninguém acerta o prompt de primeira. O curso ensina que o prompt é código, e como todo código, precisa de refatoração.
 
-O Ciclo de Refatoração:
+## O Ciclo de Refatoração:
 
-Escreva o primeiro prompt: Tente ser claro e dar delimitadores.
+- Escreva o primeiro prompt: <br>
+Tente ser claro e dar delimitadores.
 
-Analise o resultado: Onde ele falhou? Foi prolixo demais? Faltou dado técnico?
+- Analise o resultado: <br>
+Onde ele falhou? Foi prolixo demais? Faltou dado técnico?
 
-Refine a instrução: Não mude o texto todo; adicione uma restrição ou clarifique o formato.
+- Refine a instrução: <br>
+Não mude o texto todo; adicione uma restrição ou clarifique o formato.
 
-Repita: Até que o output seja consistente.
+- Repita: <br>
+Até que o output seja consistente.
+
+---
+
+
