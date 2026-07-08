@@ -113,7 +113,7 @@ Nunca peça para a IA **"retornar um texto simples"** se você vai usar isso em 
 
 **Exemplo de Pulo do Gato:** <br>
 Retorne o resultado estritamente em formato JSON válido com a estrutura:
-```
+```json
 {"status_code": int, "erro_detectado": bool, "acao_recomendada": str}
 ```
 Não inclua texto explicativo antes ou depois do JSON.
