@@ -74,5 +74,6 @@ Até que o output seja consistente.
 
 ---
 !NOTE, 
-> [!TIP], > [!WARNING]
+> [!TIP],
+> > [!WARNING]
 
