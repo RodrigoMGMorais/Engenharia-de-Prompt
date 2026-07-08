@@ -29,4 +29,7 @@ Projeto desenvolvido utilizando a biblioteca oficial da OpenAI integrada ao mode
 
 ### 📸 Demonstração do Chatbot em Execução
 
-![Demonstração do Chatbot](execucao-chatbot.jpg)
+![Primeira Pergunta e Resposta](primeiraPerguntaeRespostaChatbot.jpg)
+![Segunda Pergunta e Resposta](SegundaPerguntaeRespostaChatbot.jpg)
+![Terceira Pergunta e Resposta](TerceiraPerguntaeRespostaChatbot.jpg)
+
