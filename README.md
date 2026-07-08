@@ -6,7 +6,7 @@
 Não peça apenas "resuma". Peça "resuma focado em [X] para o público [Y], limitando a [Z] palavras". Isso é o que a gestão espera de um relatório técnico.
 
 - **Inferência (Inferring):**<br>
-Use o modelo para extrair dados estruturados de textos não estruturados. Exemplo: 💎**"Extraia o sentimento e os temas principais do log de erro abaixo e formate como JSON".**💎 Isso é puro dia a dia de sustentação.
+Use o modelo para extrair dados estruturados de textos não estruturados. Exemplo: 💎 **"Extraia o sentimento e os temas principais do log de erro abaixo e formate como JSON".** 💎 Isso é puro dia a dia de sustentação.
 
 - **Transformação (Transforming):**<br>
 O modelo é um tradutor universal de formatos. Use para mudar o tom de uma mensagem (de técnico para executivo) ou traduzir logs de formato cru para relatórios amigáveis.
