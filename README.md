@@ -17,15 +17,15 @@ Use para gerar rascunhos de e-mails, documentação técnica ou respostas a clie
 ---
 ## A Regra de Ouro:
 
-- Seja Específico: <br>
+- **Seja Específico:** <br>
 Defina o ângulo (ex: "foque nos aspectos científicos e no impacto do teste de Turing").
 
-- Delimitadores: <br>
+- **Delimitadores:** <br>
 Use sinais para separar a instrução do conteúdo que será processado. Isso evita que o modelo se confunda.
 
-- Exemplos: **""", ---, < >, ###.**
+- **Exemplos:** **""", ---, < >, ###.**
 
-** Uso: <br>
+**Uso:** <br>
 "Resuma o texto delimitado por triplas aspas: **""" {seu_texto} """".**
 
 ---
@@ -35,16 +35,16 @@ Ninguém acerta o prompt de primeira. O curso ensina que o prompt é código, e 
 
 ## O Ciclo de Refatoração:
 
-- Escreva o primeiro prompt: <br>
+- **Escreva o primeiro prompt:** <br>
 Tente ser claro e dar delimitadores.
 
-- Analise o resultado: <br>
+- **Analise o resultado:** <br>
 Onde ele falhou? Foi prolixo demais? Faltou dado técnico?
 
-- Refine a instrução: <br>
+- **Refine a instrução:** <br>
 Não mude o texto todo; adicione uma restrição ou clarifique o formato.
 
-- Repita: <br>
+- **Repita:** <br>
 Até que o output seja consistente.
 
 ---
