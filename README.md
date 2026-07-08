@@ -29,7 +29,15 @@ Projeto desenvolvido utilizando a biblioteca oficial da OpenAI integrada ao mode
 
 ### 📸 Demonstração do Chatbot em Execução
 
-![Primeira Pergunta e Resposta](primeiraPerguntaeRespostaChatbot.jpg)
-![Segunda Pergunta e Resposta](SegundaPerguntaeRespostaChatbot.jpg)
-![Terceira Pergunta e Resposta](TerceiraPerguntaeRespostaChatbot.jpg)
+#### 1ª Interação: Configuração e Contexto
+Aqui vemos o chatbot respondendo à primeira pergunta sobre o PostgreSQL, mantendo o tom técnico e direto definido no System Prompt.
+![Primeira Interação](primeiraPerguntaeRespostaChatbot.jpg)
+
+#### 2ª Interação: Teste de Memória e Contexto
+O chatbot é questionado sobre como "encerrar essa sessão". Ele identifica corretamente que a sessão refere-se ao PostgreSQL mencionado anteriormente, sem que a palavra "PostgreSQL" fosse repetida.
+![Segunda Interação](SegundaPerguntaeRespostaChatbot.jpg)
+
+#### 3ª Interação: Resumo Estruturado
+Por fim, o chatbot lê todo o histórico e gera um resumo organizado em uma tabela Markdown, conforme instruído.
+![Terceira Interação](TerceiraPerguntaeRespostaChatbot.jpg)
 
